@@ -1,0 +1,28 @@
+PLINK v1.9.0-b.8 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile data_preprocessed/chr22_qc
+  --logistic
+  --out output/plink_logistic
+  --pheno output/pheno_casecontrol/pheno_alpha0.txt
+
+Hostname: Sevenkiss-MacBook-Pro.local
+Working directory: /Users/huangjiahe/Desktop/UCSD course/CSE284/project
+Start time: Mon Mar  2 14:53:25 2026
+
+Random number seed: 1772492005
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+97216 variants loaded from .bim file.
+2504 people (0 males, 0 females, 2504 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to output/plink_logistic.nosex .
+2053 phenotype values present after --pheno.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2504 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+97216 variants and 2504 people pass filters and QC.
+Note: No phenotypes present.
+Warning: Skipping --logistic since less than two phenotypes are present.
+
+End time: Mon Mar  2 14:53:25 2026
