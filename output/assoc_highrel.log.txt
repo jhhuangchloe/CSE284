@@ -1,0 +1,37 @@
+##
+## GEMMA Version    = 0.98.5 (2021-08-25)
+## Build profile    = /gnu/store/8rvid272yb53bgascf5c468z0jhsyflj-profile
+## GCC version      = 13.3.0
+## GSL Version      = 2.8
+## OpenBlas         = OpenBLAS 0.3.29  - OpenBLAS 0.3.30 DYNAMIC_ARCH NO_AFFINITY Zen MAX_THREADS=128
+##   arch           = Zen
+##   threads        = 128
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -bfile data_preprocessed/chr22_highrel -k output/grm_highrel.cXX.txt -lmm 4 -p pheno_highrel_1col.txt -o assoc_highrel 
+##
+## Date = Mon Mar  2 20:58:11 2026
+##
+## Summary Statistics:
+## number of total individuals = 200
+## number of analyzed individuals = 200
+## number of covariates = 1
+## number of phenotypes = 1
+## number of total SNPs/var = 97216
+## number of analyzed SNPs/var = 97216
+## REMLE log-likelihood in the null model = 625.373
+## MLE log-likelihood in the null model = 634.135
+## pve estimate in the null model = 0.999969
+## se(pve) in the null model = 0.000820518
+## vg estimate in the null model = 0.00039059
+## ve estimate in the null model = 3.9059e-09
+## beta estimate in the null model =   0.0143152
+## se(beta) =   4.41922e-06
+##
+## Computation Time:
+## total computation time = 0.600194 min 
+## computation time break down: 
+##      time on eigen-decomposition = 0.178539 min 
+##      time on calculating UtX = 0.0995959 min 
+##      time on optimization = 0.250778 min 
+##

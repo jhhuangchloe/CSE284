@@ -1,0 +1,27 @@
+##
+## GEMMA Version    = 0.98.5 (2021-08-25)
+## Build profile    = /gnu/store/8rvid272yb53bgascf5c468z0jhsyflj-profile
+## GCC version      = 13.3.0
+## GSL Version      = 2.8
+## OpenBlas         = OpenBLAS 0.3.29  - OpenBLAS 0.3.30 DYNAMIC_ARCH NO_AFFINITY Zen MAX_THREADS=128
+##   arch           = Zen
+##   threads        = 128
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -bfile data_preprocessed/genome_highrel -gk 1 -p data_preprocessed/dummy_highrel.txt -o grm_highrel 
+##
+## Date = Mon Mar  2 20:52:39 2026
+##
+## Summary Statistics:
+## number of total individuals = 200
+## number of analyzed individuals = 200
+## number of covariates = 1
+## number of phenotypes = 1
+## number of total SNPs/var = 21032
+## number of analyzed SNPs/var = 20781
+##
+## Computation Time:
+## total computation time = 0.0466377 min 
+## computation time break down: 
+##      time on calculating relatedness matrix = 0.0229326 min 
+##
