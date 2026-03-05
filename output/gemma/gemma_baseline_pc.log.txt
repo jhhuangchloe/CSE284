@@ -1,0 +1,37 @@
+##
+## GEMMA Version    = 0.98.5 (2021-08-25)
+## Build profile    = /gnu/store/8rvid272yb53bgascf5c468z0jhsyflj-profile
+## GCC version      = 13.3.0
+## GSL Version      = 2.8
+## OpenBlas         = OpenBLAS 0.3.29  - OpenBLAS 0.3.30 DYNAMIC_ARCH NO_AFFINITY Zen MAX_THREADS=128
+##   arch           = Zen
+##   threads        = 128
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -bfile data_preprocessed/chr22_qc -k output/grm_chr20_22.cXX.txt -lmm 4 -p output/_tmp/gemma_baseline_pc.pheno.txt -o gemma_baseline_pc -c output/_tmp/gemma_baseline_pc.covar.txt 
+##
+## Date = Thu Mar  5 04:31:40 2026
+##
+## Summary Statistics:
+## number of total individuals = 2504
+## number of analyzed individuals = 2504
+## number of covariates = 6
+## number of phenotypes = 1
+## number of total SNPs/var = 97216
+## number of analyzed SNPs/var = 97216
+## REMLE log-likelihood in the null model = -5596.86
+## MLE log-likelihood in the null model = -5607.3
+## pve estimate in the null model = 2.90866e-06
+## se(pve) in the null model = 0.00237049
+## vg estimate in the null model = 5.17167e-05
+## ve estimate in the null model = 5.17167
+## beta estimate in the null model =   -11.2931  17.9038  -26.0844  -14.2258  3.83131  2.77391
+## se(beta) =   2.27445  2.27431  2.2742  2.27418  2.27414  0.0454463
+##
+## Computation Time:
+## total computation time = 33.1624 min 
+## computation time break down: 
+##      time on eigen-decomposition = 13.9822 min 
+##      time on calculating UtX = 4.24658 min 
+##      time on optimization = 14.5999 min 
+##
