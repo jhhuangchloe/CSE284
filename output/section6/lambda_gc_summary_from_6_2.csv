@@ -1,0 +1,5 @@
+name,type,n_valid_p,lambda_gc,path
+assoc_highrel.assoc.txt,GEMMA,97216,1.2731467106325836,output/assoc_highrel.assoc.txt
+assoc_lowrel.assoc.txt,GEMMA,97216,0.7843807987436537,output/assoc_lowrel.assoc.txt
+plink_nocov.assoc.linear,PLINK_LINEAR,97213,22.718518801672108,output/plink_nocov.assoc.linear
+plink_pc.assoc.linear,PLINK_LINEAR,97214,1.1493315525003707,output/plink_pc.assoc.linear
