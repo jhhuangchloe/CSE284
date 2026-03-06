@@ -17,13 +17,17 @@ We construct genome-wide covariates (chr20–22) for population structure and re
 
 The goal is to systematically test when LMM provides benefits over standard regression — and when it over- or under-corrects.
 
+## Notebooks
+
+- **[main.ipynb](main.ipynb)** — Full pipeline: data prep (VCF→PLINK, QC, LD pruning), PCA, GRM, phenotype simulation (all four stress scenarios), association testing (PLINK linear/logistic, GEMMA LMM), and calibration (λGC, QQ plots, overlap summaries).
+- **[report.ipynb](report.ipynb)** — Written report: hypothesis, introduction to stress scenarios (SS1–SS4), methods, results, and interpretation.
 
 ## Data Preparation
 
 
 ### Association dataset
 
-All raw data files are downloaded from the datahub and then saved to `data/` folder. Preprocessed data are saved to `data_preprocessed/` folder. 
+All raw data files are downloaded from the datahub and then saved to `data/` folder. Preprocessed data are saved to `data_preprocessed/` folder. For easy start, preprocessed results could be downloaded from [shared link](https://drive.google.com/file/d/1193mbP4SHvcb0DGwVrtpuD6PaPIOSje3/view?usp=sharing).
 
 Used for:
 - GWAS regression (PLINK)
@@ -59,4 +63,4 @@ Compare high-related vs low-related cohorts.
 ### S4 — Genotype Missingness
 Randomly mask genotypes at controlled rates.
 
-
+Please check [report.ipynb](report.ipynb) for details.
